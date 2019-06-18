@@ -1,0 +1,79 @@
+{
+  "annotations": {
+    "ORF1": {
+      "end": 1082,
+      "start": 165,
+      "strand": 1
+    },
+    "ORF2": {
+      "end": 2125,
+      "start": 1133,
+      "strand": 2
+    },
+    "ORF3": {
+      "end": 3623,
+      "start": 2268,
+      "strand": 1
+    },
+    "ORF4": {
+      "end": 4681,
+      "start": 3617,
+      "strand": 1
+    },
+    "ORF5": {
+      "end": 5537,
+      "start": 4743,
+      "strand": 1
+    },
+    "ORF6": {
+      "end": 5915,
+      "start": 5607,
+      "strand": 1
+    },
+    "ORF7": {
+      "end": 6737,
+      "start": 5943,
+      "strand": 1
+    },
+    "ORF8": {
+      "end": 7477,
+      "start": 6734,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 7550,
+      "start": 1,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "genotype": {
+      "key": "genotype",
+      "legendTitle": "clade genotype",
+      "menuItem": "clade genotype",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    }
+  },
+  "filters": [
+    "genotype"
+  ],
+  "geo": {},
+  "maintainer": [
+    "James Hadfield, Colette O'Neill",
+    "http://bedford.io/team/james-hadfield/"
+  ],
+  "panels": [
+    "tree",
+    "entropy"
+  ],
+  "title": "Ct plasmid (SOTON)",
+  "updated": "18 Jun 2019",
+  "virus_count": 534
+}
