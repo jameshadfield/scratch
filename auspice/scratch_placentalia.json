@@ -1,0 +1,118 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Test dataset for non-string labels.",
+    "colorings": [
+      { "key": "num_date", "title": "Date", "type": "continuous" }
+    ],
+    "updated": "2020-05-26",
+    "display_defaults": {"branch_label": "lineage", "distance_measure": "div"},
+    "panels": ["tree"]
+  },
+  "tree": {
+    "name": "root",
+    "node_attrs": {"div": 0},
+    "children": [{
+      "name": "Placentalia",
+      "node_attrs": {"div": 1},
+      "branch_attrs": {"labels": {"lineage": "Placentalia"}},
+      "children": [
+        {
+          "name": "Boreoeutheria",
+          "node_attrs": {"div": 2},
+          "branch_attrs": {"labels": {"lineage": "Boreoeutheria"}},
+          "children": [
+            {
+
+              "name": "Laurasiatheria",
+              "node_attrs": {"div": 3},
+              "branch_attrs": {"labels": {"lineage": "Laurasiatheria"}},
+              "children": [
+                {
+                  "name": "Scrotifera",
+                  "node_attrs": {"div": 4},
+                  "branch_attrs": {"labels": {"lineage": "Scrotifera"}},
+                  "children": [
+                    {
+                      "name": "internal1",
+                      "node_attrs": {"div": 5},
+                      "children": [
+                        {
+                          "name": "internal2",
+                          "node_attrs": {"div": 6},
+                          "children": [
+                            {
+                              "name": "Ferae",
+                              "node_attrs": {"div": 7},
+                              "branch_attrs": {"labels": {"lineage": "Ferae"}},
+                              "children": [
+                                {
+                                  "name": "Carnicora",
+                                  "node_attrs": {"div": 8}
+                                },
+                                {
+                                  "name": "Pholidota",
+                                  "node_attrs": {"div": 8}
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Perissodactyla",
+                              "node_attrs": {"div": 7}
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Artiodactyla / Cetariodactyla",
+                          "node_attrs": {"div": 7}
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Chiroptera",
+                      "node_attrs": {"div": 6}
+                    }
+                  ]
+                },
+                {
+                  "name": "Insectivora / Eulipotyphla",
+                  "node_attrs": {"div": 4}
+                }
+              ]
+            },
+            {
+              "name": "Euarchontoglires",
+              "node_attrs": {"div": 6},
+              "branch_attrs": {"labels": {"lineage": "Euarchontoglires"}},
+              "children": [
+                {
+                  "name": "Glires",
+                  "node_attrs": {"div": 8}
+                },
+                {
+                  "name": "Euarchonta",
+                  "node_attrs": {"div": 7}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Atlantogenata",
+          "node_attrs": {"div": 3},
+          "branch_attrs": {"labels": {"lineage": "Atlantogenata"}},
+          "children": [
+            {
+              "name": "Afrotheria",
+              "node_attrs": {"div": 4}
+            },
+            {
+              "name": "Xenarthra",
+              "node_attrs": {"div": 4}
+            }
+          ]
+        }
+      ]
+    }]
+  }
+}
